@@ -1,1 +1,0 @@
-# tsuda-kishi-map
