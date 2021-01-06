@@ -1,0 +1,59 @@
+@charset="utf-8";
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px;
+}
+h2{
+  padding: 0.25em 0.5em;/*上下 左右の余白*/
+  color: #494949;/*文字色*/
+  background: transparent;/*背景透明に*/
+  border-left: solid 5px #39bbaf;/*左線*/
+}
+
+body{
+  width:100%; /*ページ全体の幅は100%と指定する*/	
+  text-align:center; /*ページ全体を中央揃えにする*/
+}
+#wrap{ 
+  width: 900px;	   /*全体の幅を指定する*/  
+  margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
+  text-align:left;   /*全体を左揃えにする。*/
+}
+
+h1 {
+  position: relative;
+  padding-left: 25px;
+}
+
+h1:before {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 15px transparent;
+  border-bottom: solid 15px rgb(54 189 189);
+}
+h1:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 10px;
+  width: 100%;
+  border-bottom: solid 3px rgb(54 189 189);
+}
+.link1 {
+    color: #06635a;
+}
+.link2{
+    color: #b91212;
+}
